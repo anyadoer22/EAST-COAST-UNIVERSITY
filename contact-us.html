@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="/component/navBar.js" defer></script>
+    <script type="module" src="/component/courses.js" defer></script>
+    <script type="module" src="/component/facility.js" defer></script>
+    <script type="module" src="/component/footer.js" defer></script>
+</head>
+<body>
+    <section class="contact-us">
+        
+        <nav-section></nav-section>
+
+        <h1 class="uni-heading">Contact Us</h1>
+     </section>
+
+     <!-- Google Address -->
+     <section class="g-Maps">
+        <div class="maps">
+        <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:300px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Takoradi,+Ghana&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="authorize-map-data"></a><style>#embed-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+    </div> 
+    </section>
+
+     <!-- Forms -->
+     <section>
+         <div class="row grid-col-2 ">
+            <div class="cont-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    
+                        <h4>East Coast University,Main Campus</h4>
+                        <p>
+                            Sekondi,Western Region,Ghana
+                        </p>
+                    <br>
+                </div>
+                <div>
+    
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>+233576482171</h4>
+                    <p>
+                        Monday to Saturday, 10AM to 6PM
+                    </p>
+                    <br>
+                </div>
+                <div>
+                    <i class="fa-solid fa-at"></i>
+        
+                        <h4>afriktotheworld@gmail.com</h4>
+                        <p>
+                            Email us your queries
+                        </p>
+                   <br>
+                </div>
+            </div>
+            <div class="cont-col">
+                <form onsubmit="return validate()">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="email" placeholder="Enter Your Email" id="Email">
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea name="" id="" cols="" rows="" placeholder="Message"></textarea>
+                    <button class="btn btn-explore"><a class="white">Send Message</a></button>      
+                </form>
+            </div>
+            </div>
+     </section>
+
+     <!-- About us -->
+    
+     <footer-section></footer-section>
+   
+     <script src="App.js"></script>
+    
+</body>
+</html>
